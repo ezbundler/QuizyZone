@@ -35,7 +35,8 @@ const Login = () => {
         const user = userCredential.user;
         // ... 
         console.log(user, "getting user from firebase");
-        
+        alert("User registered succesfully");
+        setIsLogin(true);
       })
       .catch((error) => {
         const errorCode = error.code;
