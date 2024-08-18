@@ -1,0 +1,12 @@
+*{
+  background: none;
+  padding: 0;
+  margin:0;
+}
+
+.hero{
+  background-image: url(./public/heroBG.jpg);
+  background-size: cover;
+
+  
+} 
